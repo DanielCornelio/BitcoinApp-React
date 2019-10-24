@@ -93,6 +93,79 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/Master.js":
+/*!******************************!*\
+  !*** ./components/Master.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navegacion */ "./components/Navegacion.js");
+var _jsxFileName = "C:\\Users\\Daniel Cornelio\\Documents\\Coworking\\Proyectos\\React\\bitcoinapp\\components\\Master.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const MasterPage = props => __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("title", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "Bitcoin App"), __jsx("meta", {
+  name: "viewport",
+  content: "width=device-width, initial-scale=1, shrink-to-fit=no",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}), __jsx("link", {
+  rel: "stylesheet",
+  href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+})), __jsx(_components_Navegacion__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "container mt-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, props.children));
+
+/* harmony default export */ __webpack_exports__["default"] = (MasterPage);
+
+/***/ }),
+
 /***/ "./components/Navegacion.js":
 /*!**********************************!*\
   !*** ./components/Navegacion.js ***!
@@ -111,13 +184,15 @@ var _jsxFileName = "C:\\Users\\Daniel Cornelio\\Documents\\Coworking\\Proyectos\
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Navegacion = () => __jsx("ul", {
+const Navegacion = () => __jsx("nav", {
+  className: "navbar navbar-expand navbar-dark bg-warning",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 3
   },
   __self: undefined
-}, __jsx("li", {
+}, __jsx("div", {
+  className: "container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
@@ -127,37 +202,181 @@ const Navegacion = () => __jsx("ul", {
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 5
   },
   __self: undefined
 }, __jsx("a", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, "Inicio"))), __jsx("li", {
+  className: "navbar-brand",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
+  },
+  __self: undefined
+}, "Todo Bitcoin")), __jsx("div", {
+  className: "collapse navbar-collapse",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, __jsx("ul", {
+  className: "navbar-nav ml-auto",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, __jsx("li", {
+  className: "nav-item",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("a", {
+  className: "nav-link",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Inicio"))), __jsx("li", {
+  className: "nav-item",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/nosotros",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("a", {
+  className: "nav-link",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 12
   },
   __self: undefined
-}, "Nosotros"))));
+}, "Nosotros")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navegacion);
+
+/***/ }),
+
+/***/ "./components/Precio.js":
+/*!******************************!*\
+  !*** ./components/Precio.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Daniel Cornelio\\Documents\\Coworking\\Proyectos\\React\\bitcoinapp\\components\\Precio.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Precio = props => {
+  const {
+    price,
+    percent_change_1h,
+    percent_change_7d,
+    percent_change_24h
+  } = props.precio;
+  return __jsx("div", {
+    className: "card text-white bg-success mb-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: "card-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, "Precio del Bitcoin"), __jsx("div", {
+    className: "card-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }, __jsx("h4", {
+    className: "card-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, "Precio Actual: $ ", price, " "), __jsx("div", {
+    className: "d-md-flex justify-content-between",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, "\xDAltima Hora: "), percent_change_1h, "%"), __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, "\xDAltimas 24 Horas: "), percent_change_7d, "%"), __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, "\xDAltimos 7 D\xEDas: "), percent_change_24h, "%"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Precio);
 
 /***/ }),
 
@@ -1860,31 +2079,85 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Navegacion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navegacion */ "./components/Navegacion.js");
+/* harmony import */ var _components_Master__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Master */ "./components/Master.js");
+/* harmony import */ var _components_Precio__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Precio */ "./components/Precio.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "C:\\Users\\Daniel Cornelio\\Documents\\Coworking\\Proyectos\\React\\bitcoinapp\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Index = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, __jsx(_components_Navegacion__WEBPACK_IMPORTED_MODULE_1__["default"], {
+
+
+const Index = props => __jsx(_components_Master__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}), __jsx("p", {
+}, __jsx("div", {
+  className: "row",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, "Hola Mundo"));
+}, __jsx("div", {
+  className: "col-12",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, __jsx("h2", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, "Precio del Bitcoin"), __jsx(_components_Precio__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  precio: props.precioBitcoin,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "col-md-8",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("h2", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "Noticias sobre Bitcoin")), __jsx("div", {
+  className: "col-md-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("h2", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, "Pr\xF3ximos Eventos Bitcoin"))));
+
+Index.getInitialProps = async () => {
+  const precio = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()('https://api.coinmarketcap.com/v2/ticker/1/');
+  const resPrecio = await precio.json();
+  return {
+    precioBitcoin: resPrecio.data.quotes.USD
+  };
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -1976,6 +2249,28 @@ module.exports = require("core-js/library/fn/object/keys");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/promise");
+
+/***/ }),
+
+/***/ "isomorphic-unfetch":
+/*!*************************************!*\
+  !*** external "isomorphic-unfetch" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("isomorphic-unfetch");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
