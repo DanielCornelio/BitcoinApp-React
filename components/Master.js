@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navegacion from '../components/Navegacion';
+
 const MasterPage = (props) =>(
     <div>
         <Head>
